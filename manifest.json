@@ -1,9 +1,0 @@
-{
-    "name": "Radio Coverage Map",
-    "components": {
-      "visualization": {
-        "url": "index.html"
-      }
-    }
-  }
-  
