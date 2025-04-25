@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://lookerstudio.google.com/embed/loader.js"></script>
     <script>
       function drawViz(data, element) {
         const callSign = data.tables.DEFAULT[0][0];
-
         element.innerHTML = `
           <h3>Radio Coverage for ${callSign}</h3>
           <img src="https://radio-locator.com/cgi-bin/pat?call=${callSign}&service=FM" style="width:100%; max-width:600px;" />
