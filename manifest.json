@@ -7,5 +7,16 @@
       "id": "radio_coverage_map",
       "url": "index.html"
     }
+  },
+  "config": {
+    "data": {
+      "requiredFields": [
+        {
+          "id": "call_sign",
+          "name": "Call Sign",
+          "type": "TEXT"
+        }
+      ]
+    }
   }
 }
