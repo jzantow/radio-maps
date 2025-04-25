@@ -1,7 +1,9 @@
 {
   "name": "Radio Coverage Map",
   "version": "1",
-  "description": "Displays a radio-locator coverage map based on call sign.",
+  "description": "Displays a radio-locator coverage map based on a call sign.",
+  "logoUrl": "https://jzantow.github.io/radio-maps/logo.png",
+  "supportUrl": "https://github.com/jzantow/radio-maps",
   "components": {
     "visualization": {
       "id": "radio_coverage_map",
@@ -17,6 +19,8 @@
           "type": "TEXT"
         }
       ]
-    }
+    },
+    "style": {},
+    "theme": {}
   }
 }
