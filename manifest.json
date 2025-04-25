@@ -1,9 +1,11 @@
 {
-    "name": "Radio Coverage Map",
-    "components": {
-      "visualization": {
-        "url": "index.html"
-      }
+  "name": "Radio Coverage Map",
+  "version": "1",
+  "description": "Displays radio-locator coverage maps by call sign.",
+  "components": {
+    "visualization": {
+      "id": "radio_coverage_map",
+      "url": "index.html"
     }
   }
-  
+}
