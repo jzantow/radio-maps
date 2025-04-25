@@ -2,11 +2,8 @@
 <html>
   <head>
     <script>
-      let callSign = '';
-
       function drawViz(data, element) {
-        const row = data.tables.DEFAULT[0];
-        callSign = row[0];
+        const callSign = data.tables.DEFAULT[0][0];
 
         element.innerHTML = `
           <h3>Radio Coverage for ${callSign}</h3>
