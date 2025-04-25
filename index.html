@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script>
+      let callSign = '';
+
+      function drawViz(data, element) {
+        const row = data.tables.DEFAULT[0];
+        callSign = row[0];
+
+        element.innerHTML = `
+          <h3>Radio Coverage for ${callSign}</h3>
+          <img src="https://radio-locator.com/cgi-bin/pat?call=${callSign}&service=FM" style="width:100%; max-width:600px;" />
+        `;
+      }
+
+      lookerStudio.dashboard.onRender(drawViz);
+    </script>
   </head>
-  <body>
-    <div id="chart-container">Loading coverage map...</div>
-  </body>
+  <body></body>
 </html>
